@@ -1,7 +1,7 @@
 {
   "name": "callermodule",
-  "description": "",
-  "version": "0.1.0",
+  "description": "Determines the name of the module that called this code.",
+  "version": "1.0.0",
   "author": "Trevor Livingston <tlivings@gmail.com>",
   "contributors": [],
   "repository": {
@@ -18,8 +18,6 @@
   "dependencies": {
     "caller": "0.0.1"
   },
-  "peerDependencies": {},
-  "optionalDependencies": {},
   "devDependencies": {
     "tape": "~2.4.2",
     "istanbul": "~0.2.3",
@@ -28,7 +26,7 @@
   "scripts": {
     "test": "tape test/*.js",
     "cover": "istanbul cover tape -- test/*.js",
-    "lint": "jshint -c .jshintrc index.js lib/"
+    "lint": "jshint -c .jshintrc lib/*.js"
   },
   "main": "./lib/index",
   "readme": "README.md"
