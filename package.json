@@ -1,7 +1,7 @@
 {
   "name": "callermodule",
   "description": "Determines the name of the module that called this code.",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "Trevor Livingston <tlivings@gmail.com>",
   "contributors": [],
   "repository": {
@@ -14,9 +14,6 @@
   },
   "engines": {
     "node": "~0.10.22"
-  },
-  "dependencies": {
-    "caller": "0.0.1"
   },
   "devDependencies": {
     "tape": "~2.4.2",

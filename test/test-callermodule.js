@@ -8,7 +8,7 @@ test('test', function (t) {
     t.test('found module', function (t) {
         t.plan(1);
 
-        t.strictEqual(callermodule(), 'callermodule', 'found module name.');
+        t.strictEqual(callermodule(), 'tape', 'found module name.');
     });
 
 });
